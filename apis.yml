@@ -1,0 +1,92 @@
+aid: ggv-capital
+name: GGV Capital
+description: >-
+  GGV Capital (Granite Global Ventures) was a global, multi-stage venture capital
+  firm founded in 2000 and headquartered in Menlo Park, California, with offices
+  in San Francisco, Shanghai, Beijing, and Singapore. GGV invested from seed
+  through growth stage across Social/Internet and consumer, Enterprise Tech and
+  SaaS, and Smart Tech (fintech, infrastructure, developer tools, cybersecurity,
+  AI, and cross-border commerce), with a distinctive US–Asia bridge thesis. At
+  its peak the firm managed roughly $9.2B in assets under management and backed
+  more than 400 companies, including 44 unicorns and dozens of IPOs — among them
+  Airbnb, Slack, Square, Affirm, HashiCorp, Coinbase, Peloton, Opendoor,
+  Poshmark, StockX, BigCommerce, Grab, Alibaba, ByteDance, Zendesk, and Xpeng.
+  On March 29, 2024 GGV Capital ceased using the GGV brand and split into two
+  independent successor firms amid US–China tensions: Notable Capital
+  (US/international, led by Hans Tung and Glenn Solomon, ~$4.2B AUM) and Granite
+  Asia (Asia, led by Jenny Lee and Jixun Foo, ~$5B AUM). The former ggvc.com
+  companies surface now redirects to Notable Capital, which carries the
+  US/international portfolio graph. This profile tracks GGV Capital's identity
+  and portfolio graph across the API Evangelist network.
+x-type: venture-capital
+x-category: Venture Capital
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+tags:
+  - Venture Capital
+  - Seed
+  - Early Stage
+  - Growth Equity
+  - Artificial Intelligence
+  - Enterprise
+  - Developer Tools
+  - Cybersecurity
+  - Fintech
+  - Consumer
+  - United States
+  - Asia
+  - Global
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/ggv-capital/refs/heads/main/apis.yml
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.ggvc.com/
+  - type: Portfolio
+    url: https://notablecap.com/companies
+  - type: Portfolio
+    url: portfolio/ggv-capital-portfolio.yml
+  - type: Team
+    url: https://www.ggvc.com/us-team/
+  - type: Team
+    url: team/ggv-capital-team.yml
+  - type: InvestmentThesis
+    url: https://notablecap.com/approach
+  - type: Blog
+    url: https://notablecap.com/content
+  - type: Newsletter
+    url: https://newsletter.notablecap.com/
+  - type: Jobs
+    url: https://jobs.notablecap.com/jobs
+  - type: Contact
+    url: https://notablecap.com/contact
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/notablecapital
+  - type: Twitter
+    url: https://x.com/notablecap
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/ggv-capital
+  - type: Features
+    data:
+      - "Stage: Seed, Early (Series A), Growth"
+      - "Sectors: social/internet & consumer, enterprise tech & SaaS, smart tech (fintech, infrastructure, developer tools, cybersecurity, AI, cross-border commerce)"
+      - "Geography: Global (United States, Latin America, Europe, China, India, Southeast Asia)"
+      - "AUM: ~$9.2B at peak (2022, pre-split); ~$4.2B Notable Capital + ~$5B Granite Asia after 2024 split"
+      - "Founded: 2000"
+      - "HQ: Menlo Park, CA"
+      - "Track record: 400+ companies, 44 unicorns, 30+ IPOs"
+      - "Split: 2024-03-29 into Notable Capital (US/intl) and Granite Asia (Asia)"
+    sources:
+      - https://www.ggvc.com/
+      - https://en.wikipedia.org/wiki/GGV_Capital
+      - https://notablecap.com/
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+  - FN: APIs.json
+    url: http://apisjson.org
+  - FN: GGV Capital
+    url: https://www.ggvc.com/
