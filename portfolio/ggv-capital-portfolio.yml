@@ -6,9 +6,9 @@ note: GGV Capital split on 2024-03-29 into Notable Capital (US/international) an
   successor surface at notablecap.com/companies.
 summary:
   portfolio_total: 118
-  in_network: 49
-  api_providers: 31
-  missing: 69
+  in_network: 118
+  api_providers: 38
+  missing: 0
   stubs_created: 0
 companies:
 - name: HashiCorp
@@ -34,9 +34,10 @@ companies:
   sector: ecommerce
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: quince
+  slug: quince
+  matched_by: domain
 - name: Anthropic
   url: https://www.anthropic.com/
   sector: ai
@@ -78,9 +79,10 @@ companies:
   sector: hr-tech
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: handshake
+  slug: handshake
+  matched_by: domain
 - name: Airbnb
   url: https://airbnb.com/
   sector: marketplace
@@ -95,9 +97,10 @@ companies:
   sector: security
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gem
+  slug: gem
+  matched_by: domain
 - name: Slice
   url: https://slicelife.com/
   sector: food
@@ -121,9 +124,10 @@ companies:
   sector: marketplace
   status: ipo
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: poshmark
+  slug: poshmark
+  matched_by: domain
 - name: Browserbase
   url: https://www.browserbase.com/
   sector: developer-tools
@@ -156,9 +160,10 @@ companies:
   sector: consumer
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gorgie
+  slug: gorgie
+  matched_by: domain
 - name: Tiktok
   url: https://www.tiktok.com/en/
   sector: social
@@ -209,9 +214,10 @@ companies:
   sector: fintech
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aven
+  slug: aven
+  matched_by: domain
 - name: 6Sense
   url: https://6sense.com/
   sector: martech
@@ -229,7 +235,7 @@ companies:
   slug: addi
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: AlienVault
   url: https://cybersecurity.att.com/
   sector: security
@@ -244,25 +250,28 @@ companies:
   sector: cloud-services
   status: acquired
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: appirio
+  slug: appirio
+  matched_by: domain
 - name: Arteria AI
   url: https://www.arteria.ai/
   sector: legal-tech
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: arteria-ai
+  slug: arteria-ai
+  matched_by: domain
 - name: Belong
   url: https://belonghome.com/
   sector: proptech
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: belong
+  slug: belong-home
+  matched_by: domain
 - name: BigCommerce
   url: http://www.bigcommerce.com/
   sector: ecommerce
@@ -277,9 +286,10 @@ companies:
   sector: security
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bitsight
+  slug: bitsight
+  matched_by: domain
 - name: Brightwheel
   url: http://mybrightwheel.com/
   sector: edtech
@@ -294,49 +304,55 @@ companies:
   sector: martech
   status: acquired
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: buddy-media
+  slug: buddy-media
+  matched_by: domain
 - name: ByteDance
   url: https://www.bytedance.com/en/
   sector: social
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bytedance
+  slug: bytedance
+  matched_by: domain
 - name: Cacheflow
   url: http://www.getcacheflow.com/
   sector: fintech
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cacheflow
+  slug: cacheflow
+  matched_by: domain
 - name: Chief
   url: http://www.joinchief.com/
   sector: professional-network
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: chief
+  slug: chief
+  matched_by: name-slug
 - name: Clara
   url: http://www.clara.com/
   sector: legal-tech
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: clara
+  slug: clara
+  matched_by: name-slug
 - name: Clover Security
   url: https://clover.security/
   sector: security
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: clover-security
+  slug: clover-security
+  matched_by: domain
 - name: Coder
   url: http://coder.com/
   sector: developer-tools
@@ -351,25 +367,28 @@ companies:
   sector: hr-tech
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: crosschq
+  slug: crosschq
+  matched_by: domain
 - name: Curebase
   url: https://www.curebase.com/
   sector: health
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: curebase
+  slug: curebase
+  matched_by: name-slug
 - name: Curse
   url: https://www.fandom.com/
   sector: gaming
   status: acquired
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: curse
+  slug: fandom
+  matched_by: domain
 - name: Descope
   url: https://www.descope.com/
   sector: identity
@@ -402,17 +421,19 @@ companies:
   sector: ai
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: echo
+  slug: echo
+  matched_by: domain
 - name: K Health
   url: https://khealth.com/
   sector: health
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: k-health
+  slug: k-health
+  matched_by: domain
 - name: Patronus AI
   url: https://www.patronus.ai/
   sector: ai
@@ -427,41 +448,46 @@ companies:
   sector: ai
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pecan
+  slug: pecan
+  matched_by: domain
 - name: People.ai
   url: https://www.people.ai/
   sector: ai
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: peopleai
+  slug: backstory
+  matched_by: domain
 - name: Plenful
   url: https://www.plenful.com/
   sector: health
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: plenful
+  slug: plenful
+  matched_by: domain
 - name: Plus
   url: https://plus.ai/
   sector: autonomous-vehicles
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: plus
+  slug: plus
+  matched_by: domain
 - name: Vic.ai
   url: https://vic.ai/
   sector: fintech
   status: active
   source: https://notablecap.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: vicai
+  in_network: true
+  is_api_provider: true
+  slug: vicai
+  matched_by: domain
 - name: Inngest
   url: https://www.inngest.com/
   sector: developer-tools
@@ -476,9 +502,10 @@ companies:
   sector: developer-tools
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jam
+  slug: jam
+  matched_by: domain
 - name: Kong
   url: https://konghq.com/
   sector: api-management
@@ -493,17 +520,19 @@ companies:
   sector: developer-tools
   status: active
   source: https://notablecap.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: localstack
+  in_network: true
+  is_api_provider: true
+  slug: localstack
+  matched_by: domain
 - name: NetBox Labs
   url: https://netboxlabs.com/
   sector: networking
   status: active
   source: https://notablecap.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: netbox-labs
+  in_network: true
+  is_api_provider: true
+  slug: netbox-labs
+  matched_by: domain
 - name: Nimble Storage
   url: https://www.hpe.com/us/en/services/nimble-storage.html
   sector: storage
@@ -518,17 +547,19 @@ companies:
   sector: networking
   status: acquired
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ns1
+  slug: ns1
+  matched_by: domain
 - name: StarTree
   url: https://startree.ai/
   sector: data
   status: active
   source: https://notablecap.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: startree
+  in_network: true
+  is_api_provider: true
+  slug: startree
+  matched_by: domain
 - name: Stream
   url: https://streamlit.io/
   sector: developer-tools
@@ -552,41 +583,46 @@ companies:
   sector: data
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: unravel-data
+  slug: unravel-data-systems
+  matched_by: domain
 - name: Lucidum
   url: https://lucidum.io/
   sector: security
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lucidum
+  slug: lucidum
+  matched_by: domain
 - name: Nozomi
   url: https://www.nozominetworks.com/
   sector: security
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nozomi
+  slug: nozomi
+  matched_by: domain
 - name: Synack
   url: https://www.synack.com/
   sector: security
   status: active
   source: https://notablecap.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: synack
+  in_network: true
+  is_api_provider: true
+  slug: synack
+  matched_by: domain
 - name: Token
   url: https://www.token.security/
   sector: security
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: token
+  slug: token
+  matched_by: domain
 - name: Torq
   url: https://torq.io/
   sector: security
@@ -619,65 +655,73 @@ companies:
   sector: construction-tech
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ergeon
+  slug: ergeon
+  matched_by: domain
 - name: Function of Beauty
   url: https://functionofbeauty.com/
   sector: consumer
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: function-of-beauty
+  slug: function-of-beauty
+  matched_by: domain
 - name: GrubMarket
   url: https://www.grubmarket.com/
   sector: food
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: grubmarket
+  slug: grubmarket
+  matched_by: domain
 - name: Hotel Tonight
   url: https://www.hoteltonight.com/
   sector: travel
   status: acquired
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hotel-tonight
+  slug: hoteltonight
+  matched_by: domain
 - name: Houzz
   url: https://www.houzz.com/
   sector: marketplace
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: houzz
+  slug: houzz
+  matched_by: domain
 - name: IBotta
   url: https://home.ibotta.com/
   sector: consumer
   status: ipo
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ibotta
+  slug: ibotta
+  matched_by: domain
 - name: Instacoach
   url: https://instacoach.com/
   sector: consumer
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: instacoach
+  slug: instacoach
+  matched_by: domain
 - name: JOKR
   url: https://www.jokr.com/
   sector: delivery
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jokr
+  slug: jokr
+  matched_by: name-slug
 - name: Lime
   url: https://www.li.me/
   sector: mobility
@@ -692,25 +736,28 @@ companies:
   sector: consumer
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lively
+  slug: lively
+  matched_by: name-slug
 - name: Loggi
   url: https://www.loggi.com/
   sector: logistics
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: loggi
+  slug: loggi
+  matched_by: domain
 - name: OfferUp
   url: https://offerup.com/
   sector: marketplace
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: offerup
+  slug: offerup
+  matched_by: domain
 - name: Opendoor
   url: https://www.opendoor.com/
   sector: proptech
@@ -743,49 +790,55 @@ companies:
   sector: ecommerce
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: phia
+  slug: phia
+  matched_by: domain
 - name: Realm
   url: https://realmhome.com/
   sector: proptech
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: realm
+  slug: realm
+  matched_by: domain
 - name: Snappy
   url: https://www.snappy.com/
   sector: hr-tech
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: snappy
+  slug: snappy
+  matched_by: domain
 - name: Heard
   url: https://www.joinheard.com/
   sector: fintech
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: heard
+  slug: heard
+  matched_by: domain
 - name: IDWall
   url: https://idwall.co/
   sector: identity
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: idwall
+  slug: idwall
+  matched_by: domain
 - name: Karat.io
   url: https://www.trykarat.com/
   sector: hr-tech
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: karatio
+  slug: karatio
+  matched_by: domain
 - name: KhataBook
   url: https://khatabook.com/
   sector: fintech
@@ -800,25 +853,28 @@ companies:
   sector: fintech
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kikoff
+  slug: kikoff
+  matched_by: domain
 - name: Modak
   url: https://www.modakmakers.com/
   sector: fintech
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: modak
+  slug: modak
+  matched_by: domain
 - name: Northstar
   url: https://www.northstarmoney.com/
   sector: fintech
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: northstar
+  slug: northstar
+  matched_by: domain
 - name: Novo
   url: https://www.novo.co/
   sector: fintech
@@ -826,16 +882,17 @@ companies:
   source: https://notablecap.com/companies
   slug: novo-bank
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Parafin
   url: https://www.parafin.com/
   sector: fintech
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: parafin
+  slug: parafin
+  matched_by: domain
 - name: Pinwheel
   url: https://www.pinwheelapi.com/
   sector: fintech
@@ -850,17 +907,19 @@ companies:
   sector: fintech
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rupeek
+  slug: rupeek
+  matched_by: domain
 - name: Slope
   url: https://www.slopepay.com/
   sector: fintech
   status: active
   source: https://notablecap.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: slope
+  in_network: true
+  is_api_provider: true
+  slug: slope
+  matched_by: domain
 - name: Stori
   url: https://www.storicard.com/
   sector: fintech
@@ -875,33 +934,37 @@ companies:
   sector: fintech
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tala
+  slug: tala
+  matched_by: domain
 - name: Turtlemint
   url: https://www.turtlemint.com/
   sector: insurtech
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: turtlemint
+  slug: turtlemint
+  matched_by: domain
 - name: Electric.ai
   url: https://www.electric.ai/
   sector: it-management
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: electricai
+  slug: electric
+  matched_by: domain
 - name: Fairmarkit
   url: https://www.fairmarkit.com/
   sector: procurement
   status: active
   source: https://notablecap.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: fairmarkit
+  in_network: true
+  is_api_provider: true
+  slug: fairmarkit
+  matched_by: domain
 - name: Gladly
   url: https://www.gladly.com/
   sector: customer-support
@@ -925,17 +988,19 @@ companies:
   sector: ecommerce
   status: active
   source: https://notablecap.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: mason
+  in_network: true
+  is_api_provider: true
+  slug: mason
+  matched_by: name-slug
 - name: Odeko
   url: https://odeko.com/
   sector: food
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: odeko
+  slug: odeko
+  matched_by: domain
 - name: Otter.ai
   url: https://otter.ai/
   sector: ai
@@ -950,17 +1015,19 @@ companies:
   sector: health
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: plushcare
+  slug: plushcare
+  matched_by: domain
 - name: Shelf Engine
   url: https://www.shelfengine.com/
   sector: food
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: shelf-engine
+  slug: shelf-engine
+  matched_by: domain
 - name: SuccessFactors
   url: https://www.sap.com/products/hcm.html
   sector: hr-tech
@@ -984,17 +1051,19 @@ companies:
   sector: marketplace
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: udaan
+  slug: udaan
+  matched_by: domain
 - name: Veho
   url: https://www.shipveho.com/
   sector: logistics
   status: active
   source: https://notablecap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: veho
+  slug: shipveho
+  matched_by: domain
 - name: webflow
   url: https://webflow.com/
   sector: developer-tools
