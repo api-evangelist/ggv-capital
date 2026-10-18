@@ -1,4 +1,39 @@
-generated: '2026-07-22'
+generated: '2026-10-18'
 method: derived
 source_vc: ggv-capital
-leads: []
+leads:
+- name: Chief
+  url: http://www.joinchief.com/
+  suggested_slug: joinchief-com
+  sector: professional-network
+  source_vc: ggv-capital
+  source: https://notablecap.com/companies
+  stub_created: false
+- name: Clara
+  url: http://www.clara.com/
+  suggested_slug: clara-com
+  sector: legal-tech
+  source_vc: ggv-capital
+  source: https://notablecap.com/companies
+  stub_created: false
+- name: Dub
+  url: https://www.dubapp.com/
+  suggested_slug: dubapp-com
+  sector: developer-tools
+  source_vc: ggv-capital
+  source: https://notablecap.com/companies
+  stub_created: false
+- name: Lively
+  url: https://www.wearlively.com/
+  suggested_slug: wearlively-com
+  sector: consumer
+  source_vc: ggv-capital
+  source: https://notablecap.com/companies
+  stub_created: false
+- name: Mason
+  url: https://bymason.com/
+  suggested_slug: bymason-com
+  sector: ecommerce
+  source_vc: ggv-capital
+  source: https://notablecap.com/companies
+  stub_created: false

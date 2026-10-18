@@ -6,9 +6,9 @@ note: GGV Capital split on 2024-03-29 into Notable Capital (US/international) an
   successor surface at notablecap.com/companies.
 summary:
   portfolio_total: 118
-  in_network: 118
-  api_providers: 38
-  missing: 0
+  in_network: 113
+  api_providers: 42
+  missing: 5
   stubs_created: 0
 companies:
 - name: HashiCorp
@@ -106,9 +106,9 @@ companies:
   sector: food
   status: active
   source: https://notablecap.com/companies
-  slug: slice-ordering
+  slug: slice
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Monte Carlo
   url: https://www.montecarlodata.com/
@@ -243,7 +243,7 @@ companies:
   source: https://notablecap.com/companies
   slug: att
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Appirio
   url: https://www.wipro.com/
@@ -323,7 +323,7 @@ companies:
   status: active
   source: https://notablecap.com/companies
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: cacheflow
   matched_by: domain
 - name: Chief
@@ -331,19 +331,19 @@ companies:
   sector: professional-network
   status: active
   source: https://notablecap.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: chief
-  matched_by: name-slug
+  x-name-collision: chief
+  suggested_slug: joinchief-com
 - name: Clara
   url: http://www.clara.com/
   sector: legal-tech
   status: active
   source: https://notablecap.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: clara
-  matched_by: name-slug
+  x-name-collision: clara
+  suggested_slug: clara-com
 - name: Clover Security
   url: https://clover.security/
   sector: security
@@ -412,10 +412,10 @@ companies:
   sector: developer-tools
   status: active
   source: https://notablecap.com/companies
-  slug: dub
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: dub
+  suggested_slug: dubapp-com
 - name: Echo
   url: https://www.echo.ai/
   sector: ai
@@ -439,7 +439,7 @@ companies:
   sector: ai
   status: active
   source: https://notablecap.com/companies
-  slug: patronus
+  slug: evals
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -684,7 +684,7 @@ companies:
   source: https://notablecap.com/companies
   in_network: true
   is_api_provider: false
-  slug: hoteltonight
+  slug: hotel-tonight
   matched_by: domain
 - name: Houzz
   url: https://www.houzz.com/
@@ -701,7 +701,7 @@ companies:
   status: ipo
   source: https://notablecap.com/companies
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: ibotta
   matched_by: domain
 - name: Instacoach
@@ -721,7 +721,7 @@ companies:
   in_network: true
   is_api_provider: false
   slug: jokr
-  matched_by: name-slug
+  matched_by: domain
 - name: Lime
   url: https://www.li.me/
   sector: mobility
@@ -736,17 +736,17 @@ companies:
   sector: consumer
   status: active
   source: https://notablecap.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: lively
-  matched_by: name-slug
+  x-name-collision: lively
+  suggested_slug: wearlively-com
 - name: Loggi
   url: https://www.loggi.com/
   sector: logistics
   status: active
   source: https://notablecap.com/companies
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: loggi
   matched_by: domain
 - name: OfferUp
@@ -898,9 +898,9 @@ companies:
   sector: fintech
   status: active
   source: https://notablecap.com/companies
-  slug: pinwheel-api
+  slug: pinwheel
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Rupeek
   url: https://rupeek.com/
@@ -988,10 +988,10 @@ companies:
   sector: ecommerce
   status: active
   source: https://notablecap.com/companies
-  in_network: true
-  is_api_provider: true
-  slug: mason
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: mason
+  suggested_slug: bymason-com
 - name: Odeko
   url: https://odeko.com/
   sector: food
